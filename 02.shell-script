@@ -1,3 +1,5 @@
+#!/bin/bash
+
 $1: echo " hi $2 "
 $2: echo "hello $1"
 $1: echo "how are you $2"
