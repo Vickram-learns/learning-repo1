@@ -4,7 +4,7 @@ echo "hi iam Writing here"
 PERSON1=Vik
 PERSON2=Ram
 
-echo "$PERSON1: "hi" $PERSON2
+echo "$PERSON1: hi" $PERSON2
 $PERSON2: echo "hello $PERSON1"
 $PERSON1: echo "how are you $PERSON2"
 $PERSON2: echo "Im fine what about you $PERSON1"
