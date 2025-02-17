@@ -5,6 +5,6 @@ PERSON1=Vik
 PERSON2=Ram
 
 echo "$PERSON1: hi" $PERSON2
-$PERSON2: echo "hello $PERSON1"
-$PERSON1: echo "how are you $PERSON2"
-$PERSON2: echo "Im fine what about you $PERSON1"
+echo "$PERSON2:  hello $PERSON1"
+echo "$PERSON1: echo how are you $PERSON2"
+echo "$PERSON2: echo Im fine what about you $PERSON1"
