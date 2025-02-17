@@ -3,7 +3,7 @@
 echo "hi iam Writing here"
 
 
-echo "$PERSON1:hi" $PERSON2
-echo "$PERSON2:hello $PERSON1"
-echo "$PERSON1:echo how are you $PERSON2"
-echo "$PERSON2:echo Im fine what about you $PERSON1"
+echo "$1:hi" $2
+echo "$2:hello $1"
+echo "$1:echo how are you $2"
+echo "$2:echo Im fine what about you $1"
