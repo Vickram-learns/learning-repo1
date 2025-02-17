@@ -1,7 +1,10 @@
 #!/bin/bash
 
 echo "hi iam Writing here"
-$1: echo"hi" $2
-$2: echo "hello $1"
-$1: echo "how are you $2"
-$2: echo "Im fine what about you $1"
+PERSON1=Vik
+PERSON2=Ram
+
+echo "$PERSON1: "hi" $PERSON2
+$PERSON2: echo "hello $PERSON1"
+$PERSON1: echo "how are you $PERSON2"
+$PERSON2: echo "Im fine what about you $PERSON1"
