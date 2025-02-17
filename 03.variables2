@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "hi iam Writing here"
+
+P1=vik
+P2=ram
+
+echo "$P1:hi" $P2
+echo "$P2:hello $P1"
+echo "$P1:echo how are you $P2"
+echo "$P2:echo Im fine what about you $P1"
