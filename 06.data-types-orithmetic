@@ -6,7 +6,7 @@ echo "enter the value of a"
 read b
 
 
-val=`expr $a + $b`
+val=$(($a + $b))
 echo "a + b : $val"
 
 val=`expr $a - $b`
