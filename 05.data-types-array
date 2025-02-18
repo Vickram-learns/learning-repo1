@@ -8,4 +8,4 @@ CHANNELS=("FACEBOOK" "TWITTER" "YOUTUBE")
 #index are 0,1,2,3,...
 
 echo "first channel is ${CHANNELS[0]}"
-echo "all channels is ${CHANNELS[@]}"
+echo "all channels are ${CHANNELS[@]}"
