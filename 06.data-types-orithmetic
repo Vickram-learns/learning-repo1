@@ -1,7 +1,10 @@
 #!/bin/sh
 
-a=10
-b=20
+echo "enter the value of a"
+read a
+echo "enter the value of a"
+read b
+
 
 val=`expr $a + $b`
 echo "a + b : $val"
