@@ -7,4 +7,4 @@ CHANNELS=("FACEBOOK TWITTER YOUTUBE")
 #list couunt always start with 0
 #index are 0,1,2,3,...
 
-echo "first channel is ${CHANNNELS[0]}"
+echo "first channel is ${CHANNELS[0]}"
