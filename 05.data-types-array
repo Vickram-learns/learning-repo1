@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#array---> list of values
+
+CHANNELS=("FACEBOOK TWITTER YOUTUBE")
+#here size of the arry is 3
+#list couunt always start with 0
+#index are 0,1,2,3,...
+
+echo "first channel is ${CHANNNELS(0)}"
