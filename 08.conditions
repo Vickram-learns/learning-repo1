@@ -3,9 +3,9 @@
 echo "enter the number"
 read NEMBER
 
-if [$NEMBER -gt 10]
+if [ $NEMBER -gt 10 ]
 then
     echo "given number $NEMBER is greater than 10"
 else
     echo "given number $NEMBER is less than 10"
-if
+fi
