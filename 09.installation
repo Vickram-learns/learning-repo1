@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#installation
+
+USERID=$(id -u)
+
+if [$USERID -ne 0]
+then
+    echo(you are not a super user)
+fi
+
