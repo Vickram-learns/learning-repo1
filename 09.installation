@@ -1,11 +1,23 @@
 #!/bin/bash
 
 #installation
+#if you want to instll you should have super user access
+#so check super user
+#if super user, proceed
+#if not super user, i should through a proper error
+
+
+#how you run a command inside the shell script and take the output
 
 USERID=$(id -u)
+#if id is 0 then super user, if not 0 then normal isert 
 
 if [ $USERID -ne 0 ]
 then
-    echo "you are not a super user"
+    echo "please run the script with root access"
+
+else
+    echo "you are super user"
 fi
+dnf install mysql -y
 
